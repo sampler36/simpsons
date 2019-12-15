@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Simpson's Kitchen</title>
+    <!-- <meta name="viewport" content="width=device-width,initial-scale=1 " /> -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Barlow:300|Marck+Script|Montserrat|Muli|Oleo+Script:700|Pacifico|Quicksand|Titillium+Web|Ubuntu|Yellowtail&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/form.css" />
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"> </script>
+    <script src="./main.js"></script>
+
+    <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+   
+    <div class="contain">
+      <header>
+
+        <p class="logo" id="extra"><a href="index.html">Simpson's Kitchen</a></p>
+        <nav class="">
+          <!-- <a href="service.html">Services</a>         -->
+          <a href="menu.html">Menu</a>
+          <a href="blog.html">Gallery</a>
+          <a href="aboutus.html">About Us</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <!-- <img class="logo" src="img/logo.png" alt="Great Idea! Company logo."> -->
+
+      </header>
+
+      <section class="main-content">
+        <h1>Contact Us</h1>
+        <br>
+        <p>If you are interested in any of our Services or would like to visit our restaurent please fill in the form below and our team will get back to you within 20 minutes. <a href="">CLICK HERE FOR BOOKINGS</a></p>
+        <br>
+        
+        <form name="" method="POST" action="https://formspree.io/info@simpsonskitchen.com" class="yes">
+            <!-- name -->
+          <label for="">Full Name: </label>
+          <input type="text" name="fullname" class="fullname" />
+          <!-- e,mail -->
+          <label for="">Email: </label>
+          <input type="email" name="email" class="email" />
+          <!-- mobile  -->
+          <label for="">Mobile:</label>
+          <input class="mobile" name="mobile" type="tel" pattern="[0-9]{11}" required/>
+          <!-- subject -->
+
+          <label for="">Subject: </label>
+          <input type="text" name="subject"class="subject" />
+          <!-- msg  -->
+          <label for="">Message: </label>
+          <textarea name="message" class="message" id="" cols="30" rows="10"></textarea>
+          <!-- <input placeholder="Type ..." type="text" class="msg" /> -->
+          <div class="status">
+
+          </div>
+          <button type="submit" class="btn">Submit</button>
+        </form>
+      </section>
+
+      <section class="contact">
+        <i class="icon fas fa-map-marker-alt">
+          <!-- <br> 123 Way 456 Street<br>
+                Bradford, West Yorkshire -->
+        </i>
+
+        <i class="icon fab fa-facebook">
+          <!-- <br> Simpsons Kitchen UK  -->
+        </i>
+
+        <i class="icon fab fa-whatsapp">
+          <!-- <br> +447 853 0365 876 -->
+        </i>
+
+        <i class="icon fas fa-envelope">
+          <!-- <br> info@simpsonskitcken.com -->
+        </i>
+
+        <i class="icon fab fa-instagram">
+          <!-- <br>@simpson'skitcken -->
+        </i>
+      </section>
+
+      <footer>
+        <p>
+          Simpsons Kitchen &copy;
+          <script type="text/javascript">
+            document.write(new Date().getFullYear());
+          </script>
+        </p>
+        <p>designed by antoniotalent.com</p>
+      </footer>
+    </div>
+    <!-- container -->
+  </body>
+</html>

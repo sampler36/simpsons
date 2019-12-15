@@ -1,0 +1,19 @@
+.yes{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+textarea, input{
+    margin: 10px;
+    padding: 7px;
+    border: 1px solid  rgb(46, 191, 6);
+    
+}
+label{
+    padding-left: 10px;
+}
+input{
+    height: 30px;
+}
+
