@@ -98,6 +98,9 @@
   justify-content: center;
 
 }
+.suin{
+  text-align: center;
+}
 .news-content a:hover {
   /* border-top-right-radius: 20px; */
   /* border: 2px solid #f7f7f7; */
