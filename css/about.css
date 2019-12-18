@@ -1,106 +1,120 @@
-.about-section{
+.about-section {
+  width: 100%;
+  background: #f1f1f1;
+  padding: 40px 0;
+  font-size: 16px;
+}
+.inner-width {
+  max-width: 1000px;
+  overflow: hidden;
+  padding: 0 20px;
+  margin: auto;
+}
+.about-section h1 {
+  text-align: center;
+}
+.about img {
+  justify-content: center;
+}
+.chef {
+  border-radius: 50%;
+  height: 5rem;
+  width: 5rem;
+  justify-content: center;
+  margin-left: 50px;
+}
+.border {
+  width: 100px;
+  height: 3px;
+  background: #e74c3c;
+  margin: 40px auto;
+}
+.about-section-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.about-section-col {
+  flex: 50%;
+}
+.about {
+  padding-right: 30px;
+}
+.about p {
+  text-align: justify;
+  margin-bottom: 20px;
+}
+.butto {
+  display: inline-block;
+  color: #e74c3c;
+  text-decoration: none;
+  border: 2px solid #e74c3c;
+  border-radius: 24px;
+  padding: 8px 40px;
+  transition: 0.4s linear;
+}
+.butto:hover {
+  color: #fff;
+  background: #1E9600;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, rgba(255, 0, 0, 0.571) rgba(30, 150, 0, 0.66));  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, rgba(255, 0, 0, 0.605), rgba(30, 150, 0, 0.687)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.18); 
+}
+.skills {
+  padding-left: 30px;
+}
+.skill {
+  margin-bottom: 8px;
+}
+.progress {
+  width: 100%;
+  height: 18px;
+  background: #ddd;
+  border-radius: 12px;
+}
+.progress-bar {
+  height: 18px;
+  background: #1e9600; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    rgba(255, 0, 0, 0.571) rgba(30, 150, 0, 0.66)
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    rgba(255, 0, 0, 0.605),
+    rgba(30, 150, 0, 0.687)
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  border-radius: 12px;
+}
+.p1 {
+  width: 90%;
+}
+.p2 {
+  width: 70%;
+}
+.p3 {
+  width: 50%;
+}
+.p4 {
     width: 100%;
-    background: #f1f1f1;
-    padding: 40px 0;
-    font-size: 16px;
   }
-  .inner-width{
-    max-width: 1000px;
-    overflow: hidden;
-    padding: 0 20px;
-    margin: auto;
+.progress-bar span {
+  float: right;
+  margin-right: 6px;
+  line-height: 17px;
+  color: #fff;
+  font-size: 13px;
+}
+@media screen and (max-width: 700px) {
+  .about-section-col {
+    flex: 100%;
+    margin: 10px 0;
   }
-  .about-section h1{
+  .about,
+  .skills {
+    padding: 0;
+  }
+  .about {
     text-align: center;
   }
-  .about img{
-      justify-content: center;
-  }
-  .chef{
-      border-radius: 50%;
-      height: 5rem;
-      width: 5rem;
-      justify-content: center;
-      margin-left: 50px;
-
-
-  }
-  .border{
-    width: 100px;
-    height: 3px;
-    background: #e74c3c;
-    margin: 40px auto;
-  }
-  .about-section-row{
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .about-section-col{
-    flex: 50%;
-  }
-  .about{
-    padding-right: 30px;
-  }
-  .about p{
-    text-align: justify;
-    margin-bottom: 20px;
-  }
-  .butto{
-    display: inline-block;
-    color: #e74c3c;
-    text-decoration: none;
-    border: 2px solid #e74c3c;
-    border-radius: 24px;
-    padding: 8px 40px;
-    transition: 0.4s linear;
-  }
-  .butto:hover{
-    color: #fff;
-    background: #e74c3c;
-  }
-  .skills{
-    padding-left: 30px;
-  }
-  .skill{
-    margin-bottom: 8px;
-  }
-  .progress{
-    width: 100%;
-    height: 18px;
-    background: #ddd;
-    border-radius: 12px;
-  }
-  .progress-bar{
-    height: 18px;
-    background: #e74c3c;
-    border-radius: 12px;
-  }
-  .p1{
-    width: 90%;
-  }
-  .p2{
-    width: 70%;
-  }
-  .p3{
-    width: 50%;
-  }
-  .progress-bar span{
-    float: right;
-    margin-right: 6px;
-    line-height: 17px;
-    color: #fff;
-    font-size: 13px;
-  }
-  @media screen and (max-width:700px) {
-    .about-section-col{
-      flex: 100%;
-      margin: 10px 0;
-    }
-    .about,.skills{
-      padding: 0;
-    }
-    .about{
-      text-align: center;
-    }
-  }
-  
+}
