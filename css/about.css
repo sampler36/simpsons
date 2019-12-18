@@ -2,6 +2,7 @@
     width: 100%;
     background: #f1f1f1;
     padding: 40px 0;
+    font-size: 16px;
   }
   .inner-width{
     max-width: 1000px;
@@ -11,6 +12,18 @@
   }
   .about-section h1{
     text-align: center;
+  }
+  .about img{
+      justify-content: center;
+  }
+  .chef{
+      border-radius: 50%;
+      height: 5rem;
+      width: 5rem;
+      justify-content: center;
+      margin-left: 50px;
+
+
   }
   .border{
     width: 100px;
@@ -32,7 +45,7 @@
     text-align: justify;
     margin-bottom: 20px;
   }
-  .about a{
+  .butto{
     display: inline-block;
     color: #e74c3c;
     text-decoration: none;
@@ -41,7 +54,7 @@
     padding: 8px 40px;
     transition: 0.4s linear;
   }
-  .about a:hover{
+  .butto:hover{
     color: #fff;
     background: #e74c3c;
   }
