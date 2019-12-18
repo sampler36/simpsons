@@ -33,7 +33,7 @@
   top: 0;
   width: 100%;
   height: 100%;
-  background: #17c155 none repeat scroll 0 0;
+  background: #12a0468e none repeat scroll 0 0;
   content: '';
   color: white;
   opacity: 1;
@@ -46,7 +46,7 @@
   /* height: 200px; */
 }
 .deat {
-  background: #17c155 none repeat scroll 0 0;
+  background: #c23003 none repeat scroll 0 0;
   height: 70px;
   position: absolute;
   text-align: center;
@@ -70,6 +70,7 @@
 .news-content {
   padding: 20px;
   margin-left: 3px;
+
 }
 .news-content i {
   font-size: 18px;
@@ -83,20 +84,25 @@
   margin-bottom: 15px;
   text-align: justify;
   margin-top: 20px;
+  margin-right: 20px;
+
 }
 .news-content a {
   font-size: 14px;
-  background-color: #23e03f;
+  background-color: #da3431;
   padding: 10px 20px;
   color: white;
   transition: all 0.5s ease-in;
   text-decoration: none;
+  display: flex;
+  justify-content: center;
+
 }
 .news-content a:hover {
-  border-top-right-radius: 20px;
-  border: 2px solid #23e03f;
-  background-color: transparent;
-  color: rgb(255, 255, 255);
+  /* border-top-right-radius: 20px; */
+  /* border: 2px solid #f7f7f7; */
+  background-color: #fff;
+  color: rgb(247, 9, 9);
   text-decoration: none;
 }
 .news-active {
